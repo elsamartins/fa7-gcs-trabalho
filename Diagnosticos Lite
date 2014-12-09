@@ -1,8 +1,8 @@
-**Diagnósticos Lite**
+#Diagnósticos Lite#
 
-**Plano de Gerenciamento de Configuração**
+#Plano de Gerenciamento de Configuração#
 
-**LITE – PGC – v.1.0**
+#LITE – PGC – v.1.0#
 
 # Histórico de Versões
 
@@ -28,9 +28,6 @@
 </table>
 
 
-Sumário
-
-[[TOC]]
 
 # 1. Introdução
 
@@ -264,36 +261,36 @@ O projeto deverá seguir a seguinte estrutura de pastas e subpastas no repositó
 
 <table>
   <tr>
-    <td>Git
-+-branches
-|  +-Lite 4.1.0_VideoCard
-    |  +-Acompanhamento e Controle
-    |  +-Construção
-    |  |  +-Análise
-    |  |  +-Implementação	
-    |  |  +-Revisão de Código
-    |  |  +-Testes
-   |  +-Planejamento e Elaboração
-    |  |  +-Especificação Técnica
-    |  |  +-Requisitos
-    |  |  +-Planejamento de Teste
-    |  |  +-Planejamento de Desenvolvimento
-+-tags
- |  +-<VERSÃO > - <ID >
-    |  +-Lite 4.0.0
-+-master
- |  +-Lite 4.1.0
-    |  +-Acompanhamento e Controle
-    |  +-Construção
-    |  |  +-Análise
-    |  |  +-Implementação	
-    |  |  +-Revisão de Código
-    |  |  +-Testes
-    |  +-Planejamento e Elaboração
-    |  |  +-Especificação Técnica
-    |  |  +-Requisitos
-    |  |  +-Planejamento de Teste
-    |  |  +-Planejamento de Desenvolvimento
+    <td>Git <br />
++-branches <br />
+|  +-Lite 4.1.0_VideoCard <br />
+    |  +-Acompanhamento e Controle <br />
+    |  +-Construção <br />
+    |  |  +-Análise <br />
+    |  |  +-Implementação <br /> 
+    |  |  +-Revisão de Código <br />
+    |  |  +-Testes <br />
+   |  +-Planejamento e Elaboração <br />
+    |  |  +-Especificação Técnica <br />
+    |  |  +-Requisitos <br />
+    |  |  +-Planejamento de Teste <br />
+    |  |  +-Planejamento de Desenvolvimento <br />
++-tags <br />
+ |  +-<VERSÃO > - <ID > <br />
+    |  +-Lite 4.0.0 <br />
++-master <br />
+ |  +-Lite 4.1.0 <br />
+    |  +-Acompanhamento e Controle <br />
+    |  +-Construção <br />
+    |  |  +-Análise <br />
+    |  |  +-Implementação <br />	
+    |  |  +-Revisão de Código <br />
+    |  |  +-Testes <br />
+    |  +-Planejamento e Elaboração <br />
+    |  |  +-Especificação Técnica <br />
+    |  |  +-Requisitos <br />
+    |  |  +-Planejamento de Teste <br />
+    |  |  +-Planejamento de Desenvolvimento <br />
 </td>
   </tr>
 </table>
@@ -310,4 +307,4 @@ A movimentação dos arquivos nas diferentes pastas ficará a cargo do Gerente d
 # 6. Auditorias de Configuração
 
 O cronograma de verificações de Gestão de Configuração deve ser planejado na Ferramenta de Gestão de Projetos – MS Project. Este cronograma será elaborado a cada Release (ciclo de vida até a entrega para o cliente) e conterá todas as atividades de GC do projeto. Elas podem ainda, estar planejadas no Gmail, para facilitar a integração com o calendário das pessoas que serão diretamente afetadas.
-Se, durante as audições, forem detectadas falhas na Gestão de Configuração, o auditor responsável deverá criar uma requisição de mudança no projeto "Auditoria", que se encontra na ferramenta JIRA e segue o mesmo modelo de aprovação de uma solicitação de mudança de “baseline” (seção **3.2.1 Processamento e Aprovação de Solicitações de Mudança**), atribuindo esta requisição ao Gerente de Configuração, que irá avaliar se será realizada ou não a mudança.
+Se, durante as audições, forem detectadas falhas na Gestão de Configuração, o auditor responsável deverá criar uma requisição de mudança no projeto "Auditoria", que se encontra na ferramenta JIRA e segue o mesmo modelo de aprovação de uma solicitação de mudança de “baseline” (seção *3.2.1 Processamento e Aprovação de Solicitações de Mudança*), atribuindo esta requisição ao Gerente de Configuração, que irá avaliar se será realizada ou não a mudança.
